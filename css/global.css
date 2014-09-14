@@ -1,0 +1,37 @@
+﻿/*fold*/
+.set-table {
+   display: table;
+   width: 100%;
+}
+
+.set-cell {
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+}
+
+/*headers*/
+
+header {
+    background-color:#f4faff;
+    min-height: 200px;
+}
+
+/*week control*/
+.week-control {
+    list-style:none;
+}
+
+.week-control li {
+    display:inline-block;
+    padding: 10px;
+}
+
+.week-matches {
+    padding-bottom: 50px;
+    border:1px solid whitesmoke;
+}
+
+.week-matches .row{
+    padding-bottom: 5px;
+}
