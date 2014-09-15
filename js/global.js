@@ -4,12 +4,19 @@ $(document).ready(function () {
     $('.jumbotron').css('height', $(window).height() + 'px');
     $('#about').css('height', $(window).height() * .8 + 'px');
 
-    $("#jumbo-table").addClass("set-table");
-    $("#jumbo-cell").addClass("set-cell");
+    $("#jumbo-table").addClass("jumbo-table");
+    $("#jumbo-cell").addClass("jumbo-cell");
 
     //when the window resizes, resize the divs.
     $(window).resize(function(){
         $('.jumbotron').css('height', $(window).height() + 'px');
         $('#about').css('height', $(window).height() * .8 + 'px');
-    });    
+    });
+
+    $('body').scrollspy({ target: '.week-matches-wrapper' })
+
+    $('#myScrollspy').on('activate.bs.scrollspy', function () {
+        alert("YEYYYYYY");
+    })
+
 });

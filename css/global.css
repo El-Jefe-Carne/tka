@@ -1,10 +1,15 @@
-﻿/*fold*/
-.set-table {
-   display: table;
-   width: 100%;
+﻿body{
+    position:relative;
 }
 
-.set-cell {
+/*fold*/
+.jumbo-table {
+   display: table;
+   width: 100%;
+   height:100%;
+}
+
+.jumbo-cell {
    display: table-cell;
    text-align: center;
    vertical-align: middle;
@@ -18,14 +23,14 @@ header {
 }
 
 /*week control*/
-.week-control {
+/*.week-control {
     list-style:none;
-}
+}*/
 
-.week-control li {
+/*.week-control li {
     display:inline-block;
     padding: 10px;
-}
+}*/
 
 .week-matches {
     padding-bottom: 50px;
