@@ -17,9 +17,10 @@
 
 /*headers*/
 
-header {
+section header {
     background-color:#f4faff;
     min-height: 200px;
+    vertical-align:middle;
 }
 
 /*week control*/
@@ -39,4 +40,10 @@ header {
 
 .week-matches .row{
     padding-bottom: 5px;
+}
+
+#weeks-nav-wrapper{
+    z-index:2;
+    background-color:white;
+    padding-top:10px;
 }

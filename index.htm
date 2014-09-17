@@ -16,10 +16,8 @@
         <!--Global CSS-->
         <link rel="stylesheet" type="text/css" href="css/global.css">
 
+        <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-        <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-        <!--<script src="js/ie-emulation-modes-warning.js"></script>-->
 
         <!--Custom Global-->
         <script src="js/global.js"></script>
@@ -37,7 +35,7 @@
     }*/
 </style>
 
-<body>
+<body data-spy="scroll" data-target="#weeks-nav-wrapper">
     <div class="jumbotron">
         <div id="jumbo-table">
             <div id="jumbo-cell">
@@ -67,15 +65,15 @@
             </div>
             <div class="col-sm-2">&nbsp;</div>
         </div>
-        <section>
+        <section id="schedule-section">
             <header>
-                Schedule
+                SCHEDULE
             </header>
             <div class="container">
                 <div class="row" id="schedule">
                     <div class="col-sm-2">&nbsp;</div>
                     <div class="col-sm-8">
-                        <div class="weeks-nav-wrapper">                            
+                        <div id="weeks-nav-wrapper">
                             <ul class="nav nav-tabs week-control" role="tablist">
                                 <li class="active"><a href="#week1">Week 1</a></li>
                                 <li><a href="#week2">Week 2</a></li>
@@ -87,8 +85,8 @@
                                 <li><a href="#week8">Week 8</a></li>
                             </ul>
                         </div>
-                        
-                        <div class="week-matches" id="week1">
+
+                        <div class="week-matches" id="week1">                            
                             <div class="row">
                                 <div class="col-sm-1">&nbsp;</div>
                                 <div class="col-sm-4">Game of Throws</div>
@@ -208,14 +206,134 @@
                                 <div class="col-sm-4">Ballasagna</div>
                             </div>
                         </div>
+                        <div class="week-matches" id="week5">
+                            <div class="row">
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Game of Throws</div>
+                                <div class="col-sm-2">Field 1 @ 7pm</div>
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Ballasagna</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Game of Throws</div>
+                                <div class="col-sm-2">Field 1 @ 7pm</div>
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Ballasagna</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Game of Throws</div>
+                                <div class="col-sm-2">Field 1 @ 7pm</div>
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Ballasagna</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Game of Throws</div>
+                                <div class="col-sm-2">Field 1 @ 7pm</div>
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Ballasagna</div>
+                            </div>
+                        </div>
+                        <div class="week-matches" id="week6">
+                            <div class="row">
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Game of Throws</div>
+                                <div class="col-sm-2">Field 1 @ 7pm</div>
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Ballasagna</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Game of Throws</div>
+                                <div class="col-sm-2">Field 1 @ 7pm</div>
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Ballasagna</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Game of Throws</div>
+                                <div class="col-sm-2">Field 1 @ 7pm</div>
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Ballasagna</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Game of Throws</div>
+                                <div class="col-sm-2">Field 1 @ 7pm</div>
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Ballasagna</div>
+                            </div>
+                        </div>
+                        <div class="week-matches" id="week7">
+                            <div class="row">
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Game of Throws</div>
+                                <div class="col-sm-2">Field 1 @ 7pm</div>
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Ballasagna</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Game of Throws</div>
+                                <div class="col-sm-2">Field 1 @ 7pm</div>
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Ballasagna</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Game of Throws</div>
+                                <div class="col-sm-2">Field 1 @ 7pm</div>
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Ballasagna</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Game of Throws</div>
+                                <div class="col-sm-2">Field 1 @ 7pm</div>
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Ballasagna</div>
+                            </div>
+                        </div>
+                        <div class="week-matches" id="week8">
+                            <div class="row">
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Game of Throws</div>
+                                <div class="col-sm-2">Field 1 @ 7pm</div>
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Ballasagna</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Game of Throws</div>
+                                <div class="col-sm-2">Field 1 @ 7pm</div>
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Ballasagna</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Game of Throws</div>
+                                <div class="col-sm-2">Field 1 @ 7pm</div>
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Ballasagna</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Game of Throws</div>
+                                <div class="col-sm-2">Field 1 @ 7pm</div>
+                                <div class="col-sm-1">&nbsp;</div>
+                                <div class="col-sm-4">Ballasagna</div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-sm-2">&nbsp;</div>
                 </div>
             </div>
         </section>
-        <section>
+        <section id="standings-section" style="height:800px">
             <header>
-                Standings
+                STADNINGS
             </header>
             <div class="container">
                 <div class="row">
